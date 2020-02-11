@@ -18,7 +18,7 @@ import org.wildfly.s2i.model.Task;
 @Produces(MediaType.APPLICATION_JSON)
 public class NonDbRest {
 
-    @Path("task")
+    @Path("/task")
     @GET
     public Task getATask() {
        Task task = new Task();

@@ -36,4 +36,11 @@ public class TasksResource {
         }
         return tasks;
     }
+
+    @GET
+    @Path("/books")
+    public String getBooks() {
+        return "boom";
+    }
+
 }
