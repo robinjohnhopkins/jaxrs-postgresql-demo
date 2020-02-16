@@ -2,8 +2,12 @@ package org.wildfly.s2i.rest;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 import javax.inject.Inject;
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonArrayBuilder;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.UserTransaction;
@@ -30,6 +34,17 @@ public class NonDbRest {
     @GET
     public String getAString() {
         return "boom";
+    }
+
+    @Path("/numbers")
+    @GET
+    public JsonArray numbers() {
+        JsonArrayBuilder array = Json.createArrayBuilder();
+        Stream<String> numberStream = Stream.generate(System::currentTimeMillis).
+                map(String::valueOf).
+                limit(10);
+        numberStream.forEach(array::add);
+        return array.build();
     }
 
 }
