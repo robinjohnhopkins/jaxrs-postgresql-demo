@@ -33,7 +33,7 @@ public class NonDbRest {
 
     @GET
     public String getAString() {
-        return "boom";
+        return "boom1";
     }
 
     @Path("/numbers")
