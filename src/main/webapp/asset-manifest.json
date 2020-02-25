@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a3eb81e.chunk.css",
-    "main.js": "/static/js/main.1a2ad632.chunk.js",
-    "main.js.map": "/static/js/main.1a2ad632.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e7622851.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e7622851.js.map",
-    "static/js/2.d966c19d.chunk.js": "/static/js/2.d966c19d.chunk.js",
-    "static/js/2.d966c19d.chunk.js.map": "/static/js/2.d966c19d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5b53e91b6c1ffffc274997a0c97a52f6.js": "/precache-manifest.5b53e91b6c1ffffc274997a0c97a52f6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0a3eb81e.chunk.css.map": "/static/css/main.0a3eb81e.chunk.css.map",
-    "static/js/2.d966c19d.chunk.js.LICENSE.txt": "/static/js/2.d966c19d.chunk.js.LICENSE.txt"
+    "main.css": "/jaxrs-postgresql-demo/static/css/main.0a3eb81e.chunk.css",
+    "main.js": "/jaxrs-postgresql-demo/static/js/main.8e96763e.chunk.js",
+    "main.js.map": "/jaxrs-postgresql-demo/static/js/main.8e96763e.chunk.js.map",
+    "runtime-main.js": "/jaxrs-postgresql-demo/static/js/runtime-main.3bd82c19.js",
+    "runtime-main.js.map": "/jaxrs-postgresql-demo/static/js/runtime-main.3bd82c19.js.map",
+    "static/js/2.d966c19d.chunk.js": "/jaxrs-postgresql-demo/static/js/2.d966c19d.chunk.js",
+    "static/js/2.d966c19d.chunk.js.map": "/jaxrs-postgresql-demo/static/js/2.d966c19d.chunk.js.map",
+    "index.html": "/jaxrs-postgresql-demo/index.html",
+    "precache-manifest.3e4bfbda1d7bb837b6621f134859c57a.js": "/jaxrs-postgresql-demo/precache-manifest.3e4bfbda1d7bb837b6621f134859c57a.js",
+    "service-worker.js": "/jaxrs-postgresql-demo/service-worker.js",
+    "static/css/main.0a3eb81e.chunk.css.map": "/jaxrs-postgresql-demo/static/css/main.0a3eb81e.chunk.css.map",
+    "static/js/2.d966c19d.chunk.js.LICENSE.txt": "/jaxrs-postgresql-demo/static/js/2.d966c19d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7622851.js",
+    "static/js/runtime-main.3bd82c19.js",
     "static/js/2.d966c19d.chunk.js",
     "static/css/main.0a3eb81e.chunk.css",
-    "static/js/main.1a2ad632.chunk.js"
+    "static/js/main.8e96763e.chunk.js"
   ]
 }

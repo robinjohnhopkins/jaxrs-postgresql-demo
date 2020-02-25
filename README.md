@@ -79,3 +79,12 @@ http://wildfly-app-wildfly-demo.apps-crc.testing/jaxrs-postgresql-demo/index.htm
 </body>
 </html>
 ```
+
+## package.json entry affects static url prefix
+```
+{
+  "name": "reactui",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/jaxrs-postgresql-demo",
+```
