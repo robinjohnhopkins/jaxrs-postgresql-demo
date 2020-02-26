@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dedd1192f600af5a1e106294dba5815",
+    "revision": "03e44fa0bf0da2ec767239137607f49b",
     "url": "/jaxrs-postgresql-demo/index.html"
   },
   {
-    "revision": "95755b9d8192399a04a0",
+    "revision": "c72c71034439111a5bf7",
     "url": "/jaxrs-postgresql-demo/static/css/main.0a3eb81e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jaxrs-postgresql-demo/static/js/2.0525a3a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95755b9d8192399a04a0",
-    "url": "/jaxrs-postgresql-demo/static/js/main.4884a63f.chunk.js"
+    "revision": "c72c71034439111a5bf7",
+    "url": "/jaxrs-postgresql-demo/static/js/main.068e4b4d.chunk.js"
   },
   {
     "revision": "efa63bdf5bbe3a89597d",

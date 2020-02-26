@@ -2,7 +2,7 @@
   "name": "reactui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/jaxrs-postgresql-demo",
+  "x_homepage": "/jaxrs-postgresql-demo",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,7 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "tidyjavastatic": "node cleanjavastatic.js",
-    "createbuild": "REACT_APP_PUBLIC_URL='/jaxrs-postgresql-demo' react-scripts build",
+    "createbuildlocal": "REACT_APP_PUBLIC_URL='' react-scripts build && serve build",
+    "createbuild": "REACT_APP_PUBLIC_URL='/jaxrs-postgresql-demo' PUBLIC_URL='/jaxrs-postgresql-demo' react-scripts build",
     "copybuild_to_java_webapp": "cp -R  build/* ../src/main/webapp/",
     "build": "npm run tidyjavastatic && npm run createbuild && npm run copybuild_to_java_webapp",
     "test": "react-scripts test",
