@@ -1,0 +1,38 @@
+{
+  "name": "reactui",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/jaxrs-postgresql-demo",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "tidyjavastatic": "node cleanjavastatic.js",
+    "createbuild": "REACT_APP_PUBLIC_URL='/jaxrs-postgresql-demo' react-scripts build",
+    "copybuild_to_java_webapp": "cp -R  build/* ../src/main/webapp/",
+    "build": "npm run tidyjavastatic && npm run createbuild && npm run copybuild_to_java_webapp",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

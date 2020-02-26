@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jaxrs-postgresql-demo/precache-manifest.3e4bfbda1d7bb837b6621f134859c57a.js"
+  "/jaxrs-postgresql-demo/precache-manifest.67fef5ec961650c829c3a08f0fa30d1f.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -88,3 +88,15 @@ http://wildfly-app-wildfly-demo.apps-crc.testing/jaxrs-postgresql-demo/index.htm
   "private": true,
   "homepage": "/jaxrs-postgresql-demo",
 ```
+
+## build js and css then add to java static content
+
+```
+cd reactui
+REACT_APP_PUBLIC_URL='/jaxrs-postgresql-demo' npm run build
+cp -R  build/* ../src/main/webapp/
+cd ..
+```
+
+Then commit to git and build in openshift and deploy.
+
