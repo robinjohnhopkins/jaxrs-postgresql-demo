@@ -18,7 +18,7 @@ import org.wildfly.s2i.model.Task;
 @Produces(MediaType.APPLICATION_JSON)
 public class TasksResource {
 
-    @PersistenceContext
+    @PersistenceContext(unitName = "demo-PU")
     private EntityManager em;
 
     @Inject
