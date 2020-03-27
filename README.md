@@ -92,10 +92,15 @@ http://wildfly-app-wildfly-demo.apps-crc.testing/jaxrs-postgresql-demo/index.htm
 ## build js and css then add to java static content
 
 ```
-cd reactui
-REACT_APP_PUBLIC_URL='/jaxrs-postgresql-demo' npm run build
-cp -R  build/* ../src/main/webapp/
-cd ..
+    cd reactui
+    REACT_APP_PUBLIC_URL='/jaxrs-postgresql-demo' npm run build
+    cp -R  build/* ../src/main/webapp/
+    cd ..
+
+
+NB: just put above into a script, just run following each time you change the ui:
+
+    ./build.js.and.css.then.add.to.java.static.content.sh
 ```
 
 Then commit to git and build in openshift and deploy.
