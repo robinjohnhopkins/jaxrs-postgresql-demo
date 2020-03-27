@@ -100,3 +100,50 @@ cd ..
 
 Then commit to git and build in openshift and deploy.
 
+## install openjdk mac
+
+```
+$ brew tap AdoptOpenJDK/openjdk
+```
+
+The above will add more repositories to brew.
+
+```
+$ brew cask install adoptopenjdk8
+```
+
+## Debugging Java Applications On OpenShift and Kubernetes
+
+on open shift ui
+top right, click your Name, Copy Login Command
+
+```
+oc login --token=IYoRurL1V..._65_A --server=https://api.ca-central-1.starter.openshift-online.com:6443
+
+oc get pods  # To get the name of the running pod you will sync to
+
+oc port-forward <pod_name> 8787:8787 # Replace <pod_name> with the value from the previous step
+```
+
+In intellij
+Run - edit configurations - '+' - Remote - Name remote, host: localhost, port 8787
+debug and add breakpoints etc...
+
+### breakpoints don't stop?
+
+Please try Intellij - 'File (IDEA) - Invalidate Caches/Restart...'.
+Worked for me. But then I also installed jdk11 that openshift was using AND redeployed, recreated routes.
+So one of those things :)
+
+
+## Example endpoints:
+
+https://rt1-tomtest.apps.ca-central-1.starter.openshift-online.com/jaxrs-postgresql-demo/api/tasks
+
+https://rt1-tomtest.apps.ca-central-1.starter.openshift-online.com/jaxrs-postgresql-demo/api/rest/task
+
+https://rt1-tomtest.apps.ca-central-1.starter.openshift-online.com/jaxrs-postgresql-demo/api/rest/numbers
+
+https://rt1-tomtest.apps.ca-central-1.starter.openshift-online.com/jaxrs-postgresql-demo/api/tasks/books
+
+https://rt1-tomtest.apps.ca-central-1.starter.openshift-online.com/jaxrs-postgresql-demo/

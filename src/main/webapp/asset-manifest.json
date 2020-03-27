@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jaxrs-postgresql-demo/static/css/main.0a3eb81e.chunk.css",
-    "main.js": "/jaxrs-postgresql-demo/static/js/main.068e4b4d.chunk.js",
-    "main.js.map": "/jaxrs-postgresql-demo/static/js/main.068e4b4d.chunk.js.map",
+    "main.js": "/jaxrs-postgresql-demo/static/js/main.e14c15ca.chunk.js",
+    "main.js.map": "/jaxrs-postgresql-demo/static/js/main.e14c15ca.chunk.js.map",
     "runtime-main.js": "/jaxrs-postgresql-demo/static/js/runtime-main.3bd82c19.js",
     "runtime-main.js.map": "/jaxrs-postgresql-demo/static/js/runtime-main.3bd82c19.js.map",
     "static/js/2.0525a3a5.chunk.js": "/jaxrs-postgresql-demo/static/js/2.0525a3a5.chunk.js",
     "static/js/2.0525a3a5.chunk.js.map": "/jaxrs-postgresql-demo/static/js/2.0525a3a5.chunk.js.map",
     "index.html": "/jaxrs-postgresql-demo/index.html",
-    "precache-manifest.b18fb8e0d0077a2a0809a0e13c4c7b2f.js": "/jaxrs-postgresql-demo/precache-manifest.b18fb8e0d0077a2a0809a0e13c4c7b2f.js",
+    "precache-manifest.af4055e2f73f39a5f0be04c83454eed8.js": "/jaxrs-postgresql-demo/precache-manifest.af4055e2f73f39a5f0be04c83454eed8.js",
     "service-worker.js": "/jaxrs-postgresql-demo/service-worker.js",
     "static/css/main.0a3eb81e.chunk.css.map": "/jaxrs-postgresql-demo/static/css/main.0a3eb81e.chunk.css.map",
     "static/js/2.0525a3a5.chunk.js.LICENSE.txt": "/jaxrs-postgresql-demo/static/js/2.0525a3a5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3bd82c19.js",
     "static/js/2.0525a3a5.chunk.js",
     "static/css/main.0a3eb81e.chunk.css",
-    "static/js/main.068e4b4d.chunk.js"
+    "static/js/main.e14c15ca.chunk.js"
   ]
 }

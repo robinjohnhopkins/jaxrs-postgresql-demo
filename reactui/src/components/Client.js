@@ -4,7 +4,9 @@ export default class Client {
     numbers(){
         let result = new Promise((resolve, reject) => {
             let request = new XMLHttpRequest();
-            request.open("GET","http://wildfly-app-wildfly-demo.apps-crc.testing/jaxrs-postgresql-demo/api/rest/numbers");
+            // url e.g. "http://wildfly-app-wildfly-demo.apps-crc.testing/jaxrs-postgresql-demo/api/rest/numbers"
+            let url = window.location.protocol + "//" + window.location.host +  window.location.pathname + "api/rest/numbers";
+            request.open("GET", url);
             request.onreadystatechange = () => {
                 if(request.readyState === XMLHttpRequest.DONE) { // 4
                     var status = request.status;
