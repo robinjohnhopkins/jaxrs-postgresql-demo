@@ -1,0 +1,3 @@
+Name: myjaxrs
+Specification-Title: jaxrs_postgres_or_mysql
+Specification-Version: 1.0
